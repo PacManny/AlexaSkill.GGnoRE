@@ -1,0 +1,12 @@
+service: league-champion-mastery
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+functions:
+  echo:
+    handler: index.handler
+    memorySize: 256
+    events:
+      - alexaSkill

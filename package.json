@@ -1,0 +1,24 @@
+{
+  "name": "riotgames",
+  "version": "1.0.0",
+  "description": "for alexa stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpolk7/riotGames.git"
+  },
+  "keywords": [],
+  "author": "Jordan Polk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpolk7/riotGames/issues"
+  },
+  "homepage": "https://github.com/jpolk7/riotGames#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.11",
+    "request": "^2.81.0"
+  }
+}
